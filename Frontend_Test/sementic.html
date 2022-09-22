@@ -2,6 +2,71 @@
 <html lang="en">
 <head>
   <title>HTML 시맨틱 태그</title>
+  <style>
+    /*내부 스타일*/
+
+    /*태그 선택자*/
+    ul {
+      background-color :azure ;
+      list-style: none;
+    }
+    /*클래스 선택자*/
+    .idc1{
+      background-color:lightyellow;
+    }
+    /*ID 선택자*/
+    #sid2{
+      background-color: lightslategray;
+    }
+    /*복합선택자*/
+    header, footer {
+      background-color: lightseagreen;
+    }
+    nav > ul {
+      background-color: darkslategray;
+    }
+    ul.idc1 {
+      color: red;
+    }
+    li[id] {
+      color: blue;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    a:hover {
+      background-color: white;
+      color: brown;
+    }
+    a:active {
+      background-color: blue;
+      color: white;
+    }
+    header {
+      margin: 20px, 10px, 50px, 30px;
+      padding: 20px;
+      width: 50px;
+      height: 30px;
+      border: 5px;
+      border-color: red;
+      border-style: dotted;
+    }
+    span {
+      background-color: aliceblue;
+      width: 300px;
+      height: 20px;
+    }
+    nav > ul {
+      border-left-style: dashed;
+      border-width: 7px;
+      border-color: yellowgreen;
+      margin: 10px;
+    }
+    nav > ul >li {
+      margin: 5px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -9,7 +74,7 @@
   </header>
   <nav>
     <ul>
-      <li><a href="#sid1">개인정보</a></li>
+      <li class="idca"><a href="#sid1">개인정보</a></li>
       <li><a href="#sid2">학력사항</a></li>
       <li><a href="#sid3">자격증</a></li>
       <li><a href="#sid4">사용가능언어</a></li>
@@ -53,7 +118,7 @@
     </aside>
   </main>
   <footer>
-
+    k-digital
   </footer>
 </body>
 </html>
