@@ -37,3 +37,14 @@
 + DIV 태그는 사각형 박스 모양으로 구역을 지정
 + SPAN은 한 문장 단위
 + 둘은 매우 유사하나 span 태그는 인라인 요소이기 때문에 w/h 적용 불가함
+
+
+
+### 22.09.22
+####
++ display: flex // 가로로 정렬
++ display: box // 세로로 정렬
++ justify-content: space-between // 공간 맞춰서 전체적 정렬
++ 
+
++ https://noonnu.cc/font_page?commit=filter&search=&search=&editor=&category_style_ids%5B%5D=1&order_by=pd

@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'EliceDigitalBaeum-Bd';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-Bd.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RIDIBatang';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*전체 적용*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*레이아웃*/
+nav {
+  background-color: #4D4C7D;
+  display: flex;
+  justify-content: space-between;
+  color: #D8B9C3;
+  height: 50px;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav>ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav_menu>li>a {
+  padding: 5px;
+}
+
+.nav_icon>li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav a:link {
+  color : #D8B9C3;
+  text-decoration-line: none;
+}
+
+nav a:visited {
+  color: #C8D9EB;
+  text-decoration-line: none;
+}
+
+header {
+  background-color: #363062; 
+  color: #EFEDFF;
+}
+
+header>section {
+  display: flex;
+  padding: 10px;
+}
+
+.header_left {
+  text-align: center;
+  width: 20%;
+}
+
+
+.header_left, .header_right {
+  margin: 20px;
+}
+
+main {
+  background-color: #363062;
+  color: #EFEDFF;
+  display: flex;
+}
+
+main>h1{
+  font-family: "EliceDigitalBaeum-Bd";
+}
+
+
+
+main>section {
+  width: 25%;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+img {
+  border-radius: 20%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4D4C7D;
+}
+
+footer {
+  background-color: #4D4C7D;
+  color: #D8B9C3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer>p {
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+footer>ul {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
