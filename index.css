@@ -72,12 +72,11 @@ header {
 
 header>section {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .header_left {
   text-align: center;
-  padding: 25px;
+  padding: 10px;
   font-family: "EliceDigitalBaeum-Bd";
   font-size: 30px;
 }
@@ -146,7 +145,7 @@ footer>ul {
   font-size: 13px;
 }
 
-@media only screen and (max-width:600) {
+@media only screen and (max-width:600px) {
   header {
     flex-direction: column;
     align-items: center;
