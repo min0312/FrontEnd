@@ -45,6 +45,6 @@
 + display: flex // 가로로 정렬
 + display: box // 세로로 정렬
 + justify-content: space-between // 공간 맞춰서 전체적 정렬
-+ 
 
 + https://noonnu.cc/font_page?commit=filter&search=&search=&editor=&category_style_ids%5B%5D=1&order_by=pd
+

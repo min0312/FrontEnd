@@ -19,13 +19,11 @@
   font-style: normal;
 }
 
-/*전체 적용*/
 * {
   margin: 0px;
   padding: 0px;
 }
 
-/*레이아웃*/
 nav {
   background-color: #4D4C7D;
   display: flex;
@@ -66,8 +64,6 @@ nav a:visited {
 header {
   background-color: #363062; 
   color: #EFEDFF;
-  font-family: "EliceDigitalBaeum-Bd";
-  font-size: 30px;
 }
 
 header>section {
@@ -82,85 +78,6 @@ header>section {
   font-size: 30px;
 }
 
-.header_right {
-  font-size: 15px;
-  padding: 10px;
-}
-
-.header_left, .header_right {
-  width: 100;
-}
-
-main {
-  background-color: #9091b3;
-  color: #05021b;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-main>h1{
-  font-family: "EliceDigitalBaeum-Bd";
-}
-
-.content {
-  font-family: 'NanumSquareRound';
-}
-
-main>section {
-  width: 25%;
-  margin: 10px;
-  padding: 20px;
-  text-align: center;
-}
-
-img {
-  border-radius: 25%;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #4D4C7D;
-}
-
-footer {
-  background-color: #4D4C7D;
-  color: #D8B9C3;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: 'S-CoreDream-3Light';
-  bottom: 0;
-  position: sticky;
-}
-
-footer>p {
-  width: 30%;
-  margin: 10px;
-  text-align: center;
-  padding: 10px;
-  font-size: 15px;
-}
-
-footer>ul {
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 10px;
-  font-size: 13px;
-}
-
 @media only screen and (max-width:600) {
-  header {
-    flex-direction: column;
-    align-items: center;
-  }
-  .header_left, .header_right {
-    width: 80%;
-    flex-direction: column;
-    align-items: center;
-  }
-  main>section {
-    width: 80%;
-  }
-  
-  footer > ul {
-    display: none;
-  }
+
 }
