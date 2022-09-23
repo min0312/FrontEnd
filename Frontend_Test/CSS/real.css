@@ -78,6 +78,11 @@ header>section {
   font-size: 30px;
 }
 
+.header_right {
+  font-size: 15px;
+  padding: 10px;
+}
+
 @media only screen and (max-width:600) {
 
 }
