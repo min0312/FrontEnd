@@ -5,6 +5,10 @@
 + git add .
 + git commit -m "내용"
 + git push origin master
+//
++ cd로 위치 잡기
++ git clone 리파지토리 주소 가져오기
++ 
 
 
 ## HTML
